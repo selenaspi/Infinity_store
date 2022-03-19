@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="/css/navbar-footer.css">
     <link rel="stylesheet" href="css/stylelogin.css">
     <link rel="stylesheet" href="/css/styleregistro.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
@@ -103,13 +105,17 @@
 
     </header>
 
-    <section class="form-login">
+    <main class="form-login">
+        <form action="/" method="POST">
         <h4>Formulario Login</h4>
         <input class="control" type="text" name="usuario" value="" placeholder="Usuario">
         <input class="control" type="password" name="contraseña" value="" placeholder="Contraseña">
         <input class="boton" type="submit" name="" value="Ingresar">
-        <p><a href="#">¿Olvidaste tu Contraseña?</a></p>
-    </section>
+  
+    <li class="Enlaces">¿No tienes cuenta?<a href="/Register">Regístrate</a></li>
+    <li class="Enlaces"><a href="#">¿Olvidaste tu Contraseña?</a></li>
+    Recordar Contraseña<input class="recordar" type = "checkbox" name="contraseña" value = "Recordar Contraseña"/></form>
+    </main>
 
     <footer>
 
